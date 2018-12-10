@@ -75,7 +75,6 @@ button.navbar-toggler {
 .navbar-brand {
   font-size: 1.5em;
   font-weight: bold;
-  color: #009432 !important;
 }
 
 #title {
@@ -127,7 +126,17 @@ button.navbar-toggler {
 }
 
 #skills {
-  background: #009432;
+  background: rgb(255, 255, 255);
+  background: rgb(0, 148, 50);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 148, 50, 1) 0%,
+    rgba(69, 177, 105, 1) 19%,
+    rgba(130, 203, 154, 1) 44%,
+    rgba(186, 226, 199, 1) 67%,
+    rgba(219, 240, 226, 1) 86%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .skills-card {
